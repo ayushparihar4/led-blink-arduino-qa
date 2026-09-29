@@ -1,5 +1,5 @@
 // LED_Blink.ino
-const int LED_PIN = 13;      // Resolved Issue #1: named constant instead of hardcoded 13
+const int LED_PIN = 13;      // was hardcoded as 13 throughout
 const int BLINK_DELAY = 500; // ms
 
 void setup() {
