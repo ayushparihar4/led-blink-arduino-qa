@@ -4,15 +4,15 @@ const int BLINK_DELAY = 500; // ms
 
 void setup() {
   pinMode(LED_PIN, OUTPUT);
-  Serial.begin(9600);        // Resolved Issue #2: enable debug output
+  Serial.begin(9600);
 }
 
 void loop() {
-  digitalWrite(LED_PIN, HIGH);   // LED ON
+  digitalWrite(LED_PIN, HIGH);
   Serial.println("LED: ON");
   delay(BLINK_DELAY);
 
-  digitalWrite(LED_PIN, LOW);    // LED OFF
+  digitalWrite(LED_PIN, LOW);
   Serial.println("LED: OFF");
   delay(BLINK_DELAY);
 }
